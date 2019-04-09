@@ -1,2 +1,3 @@
 # Example
-Some example code of ET Programming Language.
+
+Some of the example code or project of **ET** Programming Language.
