@@ -39,3 +39,10 @@ numbers[]=5
 numbers[]=7
 numbers[]=9
 ###############################################
+int number[auto]
+numbers[]=1
+numbers[]=3
+numbers[]=5
+numbers[]=7
+numbers[]=9
+###############################################
