@@ -97,3 +97,30 @@ begin
 
 end
 ###############################################
+main
+  int argc
+  string []argv
+begin
+  _ "Hi"
+end
+###############################################
+main int argc string []argv
+begin
+  _ "Hi"
+end
+###############################################
+void test
+begin
+
+end
+int main
+  int argc
+  string []argv
+begin
+  _ "Hi".upper()
+  _ "Hi".lower()
+  _ "Hi".repeat(4)
+  test
+  returnn 0
+end
+###############################################
