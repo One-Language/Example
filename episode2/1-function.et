@@ -121,6 +121,6 @@ begin
     _ "Hi".lower()
     _ "Hi".repeat(4)
     test
-    returnn 0
+    return 0
 end
 ###############################################
