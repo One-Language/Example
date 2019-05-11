@@ -302,3 +302,21 @@ main int argc, string argv[]:
 	type(&argc, &argv)
 end
 ###############################################
+main int argc string argv[]:
+	each argv as item:
+		__ file.read(item)
+	end
+end
+###############################################
+main int argc string argv[]:
+	each argv as item:
+		__ file.delete(item)
+	end
+end
+###############################################
+main int argc string argv[]:
+	each argv as item:
+		__ file.rename(item, "---" item)
+	end
+end
+###############################################
