@@ -169,3 +169,19 @@ void main:
 	_ "\n"
 end
 ###############################################
+void main:
+	Matrix x=[1, 2, 3;4, 5, 6]
+	_ x.coutRows
+	_ x.countColumns
+	each x.items as item:
+		_ item "\t"
+	end
+	each x.rows as item:
+		_ item "\t"
+	end
+	each x.columns as item:
+		_ item "\t"
+	end
+	_ "\n"
+end
+###############################################
