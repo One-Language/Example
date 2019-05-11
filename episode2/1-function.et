@@ -280,3 +280,25 @@ main int argc, string argv[]:
 	type(argc, argv)
 end
 ###############################################
+void type &int argc, &string argv[]:
+	if argc == 1
+		__ "Hey, use --help to see the help of the using of this app..."
+	elif argc == 2
+		if argv[1] == "--help"
+			_ "\tHelp------------------\n"
+			__ "\t --help   \tHelp text."
+			__ "\t --help   \tHelp text."
+			__ "\t --help   \tHelp text."
+			__ "\t --help   \tHelp text."
+			__ "\t --help   \tHelp text."
+			__ "\t --help   \tHelp text."
+			__ ""
+		else
+			__ "Error!"
+		end
+	end
+end
+main int argc, string argv[]:
+	type(&argc, &argv)
+end
+###############################################
