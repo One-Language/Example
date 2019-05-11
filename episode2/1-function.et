@@ -345,3 +345,11 @@ main int argc string argv[]:
 	end
 end
 ###############################################
+main:
+	__ os.type()
+	__ os.name()
+	__ os.pwd()
+	__ os.path()
+	__ os.isRoot()
+end
+###############################################
