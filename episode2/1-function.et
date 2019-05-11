@@ -185,3 +185,12 @@ void main:
 	_ "\n"
 end
 ###############################################
+void main:
+	Matrix x=[1, 2, 3;4, 5, 6]
+	for int i=0 .. x.coutRows:
+		for int j=0 .. x.countColumns:
+			__ x[i][j]
+		end
+	end
+end
+###############################################
