@@ -219,7 +219,7 @@ void main:
 	loop 10 .. 15 as item:
 		__ item-10
 	end
-	// 0\n1\n2\n\n4\n5
+	// 0\n1\n2\n\n4\n5\n
 	// or
 	// 0\n1\n2\n\n4\n
 end
