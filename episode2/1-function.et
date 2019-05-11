@@ -320,3 +320,22 @@ main int argc string argv[]:
 	end
 end
 ###############################################
+main int argc string argv[]:
+	each argv as item:
+		## change directory...
+		__ file.rename(item, "../---" item)
+	end
+end
+###############################################
+main int argc string argv[]:
+	each argv as item:
+		__ file.create("../demo/" item)
+	end
+end
+###############################################
+main int argc string argv[]:
+	each argv as item:
+		__ file.create("../demo/" item, "empty...\n")
+	end
+end
+###############################################
