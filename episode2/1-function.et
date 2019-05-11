@@ -339,3 +339,9 @@ main int argc string argv[]:
 	end
 end
 ###############################################
+main int argc string argv[]:
+	each argv as item:
+		__ file.create("../demo/" item, "empty...\n".upper())
+	end
+end
+###############################################
