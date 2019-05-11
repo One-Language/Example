@@ -357,3 +357,27 @@ main:
 	__ os.call(4, 1, "test", 4);
 end
 ###############################################
+main:
+	#1 Benchmark, Performance
+	loop 1 .. 50:
+		__ "Hello"
+	end
+	#2 Benchmark, Performance
+	loop 1 .. 50:
+		_ "Hello"
+		_ "\n"
+	end
+	#3 Benchmark, Performance
+	loop 1 .. 50:
+		_ "Hello", "\n"
+	end
+	#4 Benchmark, Performance
+	loop 1 .. 50:
+		_ "Hello" . "\n"
+	end
+	#5 Benchmark, Performance
+	loop 1 .. 50:
+		_ "Hello\n"
+	end
+end
+###############################################
