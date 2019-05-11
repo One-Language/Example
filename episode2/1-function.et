@@ -282,7 +282,7 @@ end
 ###############################################
 void type &int argc, &string argv[]:
 	if argc == 1
-		__ "Hey, use --help to see the help of the using of this app..."
+		__ "Hey, use --help to see the help of the use..."
 	elif argc == 2
 		if argv[1] == "--help"
 			_ "\tHelp------------------\n"
@@ -300,5 +300,18 @@ void type &int argc, &string argv[]:
 end
 main int argc, string argv[]:
 	type(&argc, &argv)
+end
+###############################################
+main:
+	## auto cast...
+	int x=3.14
+	__ x
+	float y=3.14
+	__ y
+end
+###############################################
+main:
+	auto x=3.14
+	__ x
 end
 ###############################################
