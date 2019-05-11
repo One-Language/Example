@@ -381,3 +381,28 @@ main:
 	end
 end
 ###############################################
+main:
+	int MAX=999999
+	#1 Benchmark, Performance
+	loop 1 .. MAX:
+		__ "Hello"
+	end
+	#2 Benchmark, Performance
+	loop 1 .. 999999:
+		_ "Hello"
+		_ "\n"
+	end
+	#3 Benchmark, Performance
+	loop 1 .. 999999:
+		_ "Hello", "\n"
+	end
+	#4 Benchmark, Performance
+	loop 1 .. 999999:
+		_ "Hello" . "\n"
+	end
+	#5 Benchmark, Performance
+	loop 1 .. 999999:
+		_ "Hello\n"
+	end
+end
+###############################################
