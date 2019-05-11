@@ -132,3 +132,16 @@ int demo begin
     return test()
 end
 ###############################################
+void main:
+	_ "Hi!"
+end
+###############################################
+void main
+   int arg
+   string argv[]:
+	_ "Hi!"
+	each argv as item:
+		_ item "\n"
+	end
+end
+###############################################
