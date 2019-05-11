@@ -152,10 +152,20 @@ void main:
 end
 ###############################################
 void main:
-	Matrix x
 	// Matrix x=[1, 2, 3;4, 5, 6]
+	Matrix x
 	x=[1, 2, 3;4, 5, 6]
 	_ x.rows
 	_ x.columns
+end
+###############################################
+void main:
+	Matrix x=[1, 2, 3;4, 5, 6]
+	_ x.coutRows
+	_ x.countColumns
+	each x.rows as item:
+		_ item "\t"
+	end
+	_ "\n"
 end
 ###############################################
