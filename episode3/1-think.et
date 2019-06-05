@@ -1,0 +1,11 @@
+int main:
+	int a
+	int b
+	int c=10
+	int d=c
+	int e=d * 10
+	int f=e / 20
+	int g = f + 1
+	int h
+	h = g + 5 - 2
+	return h
