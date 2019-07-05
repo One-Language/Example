@@ -1,2 +1,3 @@
 int main:
 	__ os.arg(0)
+	
