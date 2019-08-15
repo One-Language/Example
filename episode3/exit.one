@@ -1,3 +1,0 @@
-main:
-	sys.exit(0)
-	system.exit(0)
