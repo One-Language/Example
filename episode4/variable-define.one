@@ -1,0 +1,8 @@
+main:
+	name="Max"
+	__ "Hi ", name
+	year=2000
+	__ year," New year..."
+	year++
+	__ year," New year..."
+end
