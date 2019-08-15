@@ -1,0 +1,7 @@
+main:
+	year=2000
+	until year<=2019:
+		__ year," New year..."
+		year++
+	end
+end
